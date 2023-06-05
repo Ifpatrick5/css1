@@ -1,0 +1,243 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #ffffff;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #ffffff;
+    margin: 10px;
+}
+.nav{
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #4CAF50; 
+  color: white; 
+  text-decoration: none;
+  border-radius: 5px; 
+}
+
+.marca {
+    display: flex;
+    height: 50px;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #ffffff;
+    margin: 10px;
+}
+
+.tronco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    height: 400px;
+    width: 20%;
+    background-color: rgb(251, 255, 25);
+    border: 3px solid #000;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img1 {
+    display: flex;
+    height: 100px;
+    width: 60%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.img2 {
+    display: flex;
+    height: 100px;
+    width: 60%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+
+}
+
+.principal {
+    display: flex;
+    height: 400px;
+    width: 80%;
+    background-color: blue;
+    border: 3px solid #000;
+    flex-direction: column;
+
+}
+
+.cima {
+    display: flex;
+    height: 200px;
+    width: 99, 8%;
+    background-color: yellow;
+    border: 3px solid #000;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.imag1 {
+    display: flex;
+    height: 125px;
+    width: 18%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.imag2 {
+    display: flex;
+    height: 125px;
+    width: 18%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.imag3 {
+    display: flex;
+    height: 125px;
+    width: 18%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.imag4 {
+    display: flex;
+    height: 125px;
+    width: 18%;
+    background-color: blue;
+    border: 3px solid #000;
+    margin: 10px;
+}
+
+.baixo {
+    display: flex;
+    height: 200px;
+    width: 99, 8%;
+    background-color: blue;
+    border: 5px solid #000;
+    justify-content: center;
+}
+
+.im1 {
+    display: flex;
+    height: 200px;
+    width: 60%;
+    background-color: yellow;
+    border: 5px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.im2 {
+    display: flex;
+    height: 100px;
+    width: 80%;
+    background-color: blue;
+    border: 5px solid #000;
+}
+
+.rodape {
+    display: flex;
+    height: 50px;
+    background-color: rgb(243, 1, 1);
+    border: 3px solid #000;
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .marca {
+        width: 100%;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: space-around;
+        height: auto;
+        width: 100%;
+    }
+
+    .img1,
+    .img2 {
+        width: 40%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+
+    .cima {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imag1,
+    .imag2,
+    .imag3,
+    .imag4 {
+        width: 90%;
+    }
+
+    .im1 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1,
+    .img2 {
+        width: 80%;
+    }
+
+    .imag1,
+    .imag2,
+    .imag3,
+    .imag4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo,
+    .marca {
+        display: none;
+    }
+
+    .nav {
+        margin-top: 0;
+    }
+}
